@@ -27,6 +27,7 @@ def merge_list(list_to_merge):
 merge_list([[1, 8, 3], [-5, 0], [4], [2, 3, 3]])
 
 
+def multi_power(original, powers):
     a = list(map(lambda x, y: x**y, original, powers))
     print(a)
 
